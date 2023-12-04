@@ -9,11 +9,29 @@
             margin: 0;
             min-height: 100vh;
         }
-        /*=================================================*/
+        nav{
+            height: 40px;
+            background-color: palevioletred;
+        }
+        ul{    display: inline;}
+        ul li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+        header{
+            height: 400px;
+            background-color: pink;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+/*=================================================*/
         .part5{
             background-color: plum;
         }
-        .part6{
+        .part5{
             background-color: rgb(255, 111, 255);
         }
         .part5 , .part6{
@@ -22,13 +40,29 @@
             justify-content: center;
             align-items: center;
         }
+        .footer{
+            display: flex;
+            justify-content: space-around;
+            background-color: hotpink;
+        }
+        .footer ul li{
+            display: block;
+        }
     </style>
 </head>
 <body>
 
     <!--number1-->
-   <nav></nav>
-   <header></header>
+   <nav>
+    <ul>
+        <li>home</li>
+        <li>product</li>
+        <li>About us</li>
+    </ul>
+   </nav>
+   <header>
+    <h2>Online Shop</h2>
+   </header>
 
    <!--number2-->
    <section></section>
@@ -39,8 +73,37 @@
    <section></section>
 
    <!--number4-->
-   <section class="part5"><h2>part5</h2></section>
-   <section class="part6"><h2>part6</h2></section>
-   <footer></footer>
+   <section class="part5"><h2>Part5</h2></section>
+   <section class="part6"><h2>Part6</h2></section>
+   <footer class="footer">
+    <ul>
+        <li><b>title</b></li>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+    <ul>
+        <li><b>title</b></li>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+    <ul>
+        <li><b>title</b></li>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+    <ul>
+        <li><b>title</b></li>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+   </footer>
 </body>
 </html>
